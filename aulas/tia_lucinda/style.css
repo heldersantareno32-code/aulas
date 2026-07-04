@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    height: 100;
+background-image:linear-gradient(to right,blue 20%,rgb(247, 165, 165) 20%);
+background-attachment: fixed;
+}h1{
+    color: rgb(241, 241, 105);
+}
+h2{
+     color: rgb(241, 241, 105);
+}p{
+    color: white;
+}ol{
+    color: white;
+}hr{
+    color: white;
+}

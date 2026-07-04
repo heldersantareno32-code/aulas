@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family:idroid;
+    src: url(fontes/idroid.otf) format(openType);
+}body{
+    font-family: idroid;
+    background-color: rgba(55, 145, 55, 0.733);
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+body{
+    text-align: justify;
+margin: 1px;
+}
+#principal{
+    text-align: center;
+    color: white;
+}
+.normal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}header{
+    height: auto;
+    width: auto;
+   border: 1px 100px;
+    padding:6px 0px;
+    outline: 10px;
+    box-shadow: -4px 4px 3px 0px rgba(0, 128, 0, 0.459);
+    background-image: linear-gradient(to right, rgb(4, 117, 4) ,rgb(4, 160, 4));
+}nav>a{
+   text-align: left;
+    margin-right: 15px;
+    
+   margin-left: 5px;
+   border-left:0px ;
+    color: white;
+    text-decoration: none;
+    border-right: 20px;
+    font-weight: bold;
+    font-size: 9px;
+    
+}
+nav>a:hover{
+    background-color:rgb(11, 75, 11);
+    
+    border: 50px;
+    padding: 5px;
+   
+}a{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(10, 202, 10, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+}main{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+  padding: 10px;
+   box-shadow:-3px 5px 3px 0px rgba(255, 255, 255, 0.315);
+}
+.destaque{
+    color: rgb(5, 104, 5);
+    background-image: linear-gradient(to right, rgba(46, 190, 46, 0.384),white);
+}h1{
+    text-align: left;
+    font-size: 2em;
+}
+footer{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+  padding: 10px;
+  
+}footer>aside{
+    background-color:rgba(102, 180, 102, 0.699);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border-radius: 7px 7px 7px 7px;
+    font-weight: bold;
+    box-shadow:-3px 5px 3px 0px rgba(255, 255, 255, 0.315);
+    
+}
+.borda{
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border-radius: 7px 7px 0px 0px;
+}p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}.separar{
+    margin-left: 350px;
+}ul{
+   columns: 2;
+ 
+}em{
+    font-style: normal;
+    font-weight: bolder;}
+    
