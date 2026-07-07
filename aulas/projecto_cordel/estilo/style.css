@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:ananda;
+    src: url(../ananda_2/Ananda\ Black\ Personal\ Use.ttf);
+}
+@font-face {
+    font-family: discipline;
+    src: url(../discipline_notes/Discipline\ Notes.otf) format(OpenType);
+}
+
+    
+
+
 *{
     margin:0px;
     padding: 0px;
@@ -14,15 +26,20 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;
+    font-family: discipline;
     
 }
 header>p{
     padding-bottom: 50px;
+    font-family: ananda;
+    letter-spacing: 8px;
+    
     
 }
 header a, footer a{
@@ -51,6 +68,8 @@ section.imagem{
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.5vw;
+    font-family: ananda;
+    
 }section{
     padding-bottom: 2em;
 }
